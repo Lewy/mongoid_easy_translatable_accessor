@@ -13,9 +13,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = ">= 1.3.6"
   s.rubyforge_project         = "easy_globalize3_accessors"
-
-  s.add_dependency "globalize3", "~> 0.1.0.beta"
-
+ 
   s.add_development_dependency "bundler", "~> 1.0.7"
 
   s.files        = `git ls-files`.split("\n")
